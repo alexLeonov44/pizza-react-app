@@ -18,7 +18,7 @@ export default function App() {
   },[filters]);
   return (
     <div className="wrapper">
-      <Headers totalCount={cart.totalCount}/>
+      {/* <Headers totalCount={cart.totalCount}/> */}
       <div className="content">
         <Route exact path="/">
           <Home dispatch={dispatch} />
