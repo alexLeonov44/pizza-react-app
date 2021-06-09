@@ -20,9 +20,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "node scripts start",
-    "build": "node scripts build",
-    "test": "node scripts test",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "server": "node server.js",
     "json-server": "json-server --watch public/db.json --port=3001"
   },
