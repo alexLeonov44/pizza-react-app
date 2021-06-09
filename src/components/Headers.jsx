@@ -6,7 +6,7 @@ const Headers = ({totalCount}) => {
   return (
     <div className="header">
       <div className="container">
-        <Link to="/">
+        <Link  to="/">
           <div className="header__logo">
             <img width="38" src={logo} alt="Pizza logo" />
             <div>
@@ -17,7 +17,7 @@ const Headers = ({totalCount}) => {
         </Link>
         <Link to="/cart">
           <div className="header__cart">
-            <a href="/cart.html" className="button button--cart">
+            <span href="/cart.html" className="button button--cart">
               <span>520 ₽</span>
               <div className="button__delimiter"></div>
               <svg
@@ -49,7 +49,7 @@ const Headers = ({totalCount}) => {
                 />
               </svg>
               <span>{totalCount}</span>
-            </a>
+            </span>
           </div>
         </Link>
       </div>
